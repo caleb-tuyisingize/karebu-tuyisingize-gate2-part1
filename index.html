@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="./src/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body class="bg-[#fff] overflow-x-hidden">
-<div class="w-full bg-center bg-cover bg-no-repeat bg-zoom-2 h-[100svh] min-h-[fit-content] mx-auto bg-[url(/src/assets/www.liverpool.ac.uk-1756368635407/welcome-homepage-new.jpg.jpeg)]">
+<body class="bg-[#fff] w-screen lg:overflow-x-hidden overflow-x-hidden">
+<div class="lg:w-full hidden lg:block  lg:bg-center bg-[80%] bg-cover bg-no-repeat bg-zoom-2 h-[100svh] min-h-[fit-content] mx-auto bg-[url(/src/assets/www.liverpool.ac.uk-1756368635407/welcome-homepage-new.jpg.jpeg)]">
   <div class="p-[32px]">
   <div class="first-header flex flex-grow justify-between">
     <div class="logo">
@@ -73,31 +73,127 @@
     </div>
   </div>
   </div>
+
+
+<div class="lg:w-full lg:hidden lg:block  lg:bg-center bg-[100%] bg-cover bg-no-repeat bg-zoom-2 h-[100svh] min-h-[fit-content] mx-auto bg-[url(/src/assets/www.liverpool.ac.uk-1756368635407/welcome-homepage-new.jpg.jpeg)]">
+  <div class="p-[12px]">
+  <div class="first-header flex flex-grow justify-between">
+    <div class="logo flex justify-between">
+      <img class="w-[150px] invert" src="./src/assets/www.liverpool.ac.uk-1756368635407/7c1114f4-cf0c-4c20-a68e-0b3b959ed212.svg" alt="">
+      <div class="flex space-x-6 ml-20">
+        <i class="fas fa-search mb-2 font-bold text-[#fff] text-[34px]"></i>
+        <i id="opener" class="fas fa-bars mb-2 font-bold text-[#fff] text-[34px]"></i>
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <div id="menus" class="hidden grid grid-cols-1 w-full p-6 bg-gray-100 absolute z-index-[999] top-0 left-0 h-200">
+
+  <div class="over-view grid grid-cols-1 gap-[2px]">
+    
+    <div class="flex text-gray-900 space-x-2"><div class="hover:border-b-3 min-w-[100%] text-right font-bold text-[24px] pb-[12px]" id="closer"><i class="fab fa-x"></i></div> </div>
+  <div class="over-view grid grid-cols-1 gap-[2px]">
+    
+    <div class="flex text-gray-900 space-x-2 items-center"><div class="hover:border-b-3 min-w-[82px] text-center font-bold text-[24px] pb-[12px]" id="closer">Home</div> </div>
+    <table border="2">
+<tr>
+
+  
+ <td class="flex text-gray-900 space-x-2 items-center"> <div ><div class="hover:border-b-3 min-w-[82px] text-center font-bold text-[24px] pb-[12px]">Study</div></td>
+  <td><i class="fas fa-chevron-right font-bold text-[17px]"></i> </div></td>
+</tr>
+  
+ <td class="flex text-gray-900 space-x-2 items-center"> <div ><div class="hover:border-b-3 min-w-[82px] text-center font-bold text-[24px] pb-[12px]">Student life</div></td>
+  <td><i class="fas fa-chevron-right font-bold text-[17px]"></i> </div></td>
+</tr>
+  
+ <td class="flex text-gray-900 space-x-2 items-center"> <div ><div class="hover:border-b-3 min-w-[82px] text-center font-bold text-[24px] pb-[12px]">Research and innovation</div></td>
+  <td><i class="fas fa-chevron-right font-bold text-[17px]"></i> </div></td>
+</tr>
+  
+ <td class="flex text-gray-900 space-x-2 items-center"> <div ><div class="hover:border-b-3 min-w-[82px] text-center font-bold text-[24px] pb-[12px]">Global</div></td>
+  <td><i class="fas fa-chevron-right font-bold text-[17px]"></i> </div></td>
+</tr>
+  
+ <td class="flex text-gray-900 space-x-2 items-center"> <div ><div class="hover:border-b-3 min-w-[82px] text-center font-bold text-[24px] pb-[12px]">About us</div></td>
+  <td><i class="fas fa-chevron-right font-bold text-[17px]"></i> </div></td>
+</tr>
+
+
+    </table>
+  </div>
+
+  <div class="serev space-x-10 hidden ml-auto grid grid-cols-1 text-gray-900 items-center">
+    <i class="fas fa-search  font-bold text-[34px]"></i> 
+    <div class=" text-gray-900 space-x-2 items-center"><div class="hover:underline min-w-[82px] text-center font-semibold text-[24px] pb-[12px]"> Search the site</div>
+  </div>
+  </div>
+      <div class="icons">
+      <ul class="grid grid-cols-1 gap-[24px] text-[24px] text-gray-900 font-[ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji]">
+        <li class="hover:underline hover:decoration-3">News</li>
+        <li class="hover:underline hover:decoration-3">Jobs</li>
+        <li class="hover:underline hover:decoration-3">Donate</li>
+        <li class="hover:underline hover:decoration-3">A-Z</li>
+        <li class="hover:underline hover:decoration-3">Alumni</li>
+        <li class="hover:underline hover:decoration-3">Staff</li>
+        <li class="hover:underline hover:decoration-3">Students</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>
+<br>
+  <br>
+  <div class="info p-[32px] lg:relative">
+
+    <div class="div lg:text-[52px] text-[22px] lg:mt-0 mt-20 p-[12px] border-[#fff] border-4 lg:h-50 h-20 lg:w-[calc(70%-32px)] w-[100%]">
+      <h1 class=" font-bold lg:text-[#fff] text-gray-200 uppercase font-[ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji]">Your next chapter starts now</h1>
+      
+    </div>
+    <div class="div p-[12px] border-[#fff] border-b-4 border-r-4 border-l-4 lg:h-40 h-40 w-[84%] lg:w-[calc(60%-32px)]">
+      <p class="text-[16px] lg:text-[18px] leading-relaxed font-semibold lg:font-regular text-[#fff] font-[ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji]">
+        Welcome to Liverpool! If you're joining us in September, we can't wait to meet you. Find out what you can do now to get ready.
+      </p>
+      
+    </div><br>
+        <div class="div p-[12px] border-[#fff] content-center text-center h-14 border-1 w-full lg:w-[calc(23%-32px)]">
+      <span class="lg:text-[1rem] text-[14px] font-bold text-[#fff] uppercase font-[ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji]">Exprole our welcome activities <i class="fas fa-chevron-right"></i></span>
+      
+    </div>
+  </div>
+  </div>
   <br><br>
 
-<div class="find-course bg-[#202A58] p-[49px] text-[#fff] content-center w-full h-[380px]">
- <div class="search text-1xl flex items-center space-x-7 leading-relaxed flex-grow space-x-2">
+<div class="find-course bg-[#202A58] grid grid-rows-2 lg:block p-4 lg:p-[49px] text-[#fff] content-center w-full lg:w-full h-[380px]">
+ <div class="search text-1xl grid grid-cols-1 lg:flex items-center space-x-7 leading-relaxed flex-grow space-x-2">
   <label for="search" class="font-bold">Find your Course</label>
-  <input type="text" id="search" class="border-2 font-regular border-blue-900 h-[69px] w-[50%] text-2xl bg-[#fff] outline-none px-9 text-gray-900 ">
-  <input type="submit" id="search" value="Search" class="border-2 font-regular border-[#fff] text-2xl h-[67px] w-[10%] bg-[#202A58] outline-none px-3 text-[#fff] ">
-  <div class="az">
+  <div class="flex w-[352px] lg:w-[60%] bg-red-900">
+
+    <input type="text" id="search" class="border-2 font-regular border-blue-900 h-[69px] w-full lg:w-[80%] text-2xl bg-[#fff] outline-none px-9 text-gray-900 ">
+    <button type="submit" id="search" class="border-2 font-regular border-[#fff] text-2xl h-[67px] w-[20%] bg-[#202A58] outline-none px-3 text-[#fff] ">
+      <span class="hidden lg:flex">Search</span>
+      <span class="flex lg:hidden"><i class="fas fa-chevron-right"></i></span>
+  </button>
+  </div>
+  <div class="az lg:block hidden">
     <span class="underline hover:decoration-4">Courses by A-Z</span><br>
     <span class="underline hover:decoration-4">Courses by subject</span>
   </div>
 </div>
 <br>
-<div class="radios w-[60rem] content-center  justify-between flex mx-auto">
+<div class="radios w-[60rem] content-center  justify-between lg:mt-0 mt-[-50px] grid grid-cols-1 gap-4 lg:flex mx-auto">
   <div class="flex items-center space-x-4">
     <input type="radio" id="undergraduate" name="course" value="undergraduate" class="w-5 h-5 accent-[#202A58]">
-    <label for="undergraduate" class="text-[20px] font-regular">Undergraduate</label>
+    <label for="undergraduate" class="lg:text-[20px] text-[23px] font-regular">Undergraduate</label>
   </div>
   <div class="flex items-center space-x-4">
     <input type="radio" id="postgraduate" name="course" value="postgraduate" class="w-5 h-5 accent-[#202A58]">
-    <label for="postgraduate" class="text-[20px] font-regular">Postgraduate taught</label>
+    <label for="postgraduate" class="lg:text-[20px] text-[23px] font-regular">Postgraduate taught</label>
   </div>
   <div class="flex items-center space-x-4">
     <input type="radio" id="postgraduate" name="course" value="postgraduate" class="w-5 h-5 accent-[#202A58]">
-    <label for="research" class="text-[20px] font-regular">Postgraduate research</label>
+    <label for="research" class="lg:text-[20px] text-[23px] font-regular">Postgraduate research</label>
 </div>
 </div>
 </div>
@@ -105,11 +201,11 @@
 <!-- Discover -->
 <section class="mt-[30px]">
 
-  <div class="w-full h-170 bg-[#fff] p-[32px]">
+  <div class="w-full h-170 bg-[#fff] lg:p-[32px] p-4">
     <h1 class="text-2xl font-bold text-gray-900">Discover the University of Liverpool</h1><br>
     <div class="discover flex justify-between">
-      <img src="./src/assets/www.liverpool.ac.uk-1756368635407/contact-us-VGM.jpg.jpeg" class="w-[540px] h-100" alt="">
-      <div class="contents grid grid-cols-1 mx-18 w-[1000px] h-100 text-[16px] ">
+      <img src="./src/assets/www.liverpool.ac.uk-1756368635407/contact-us-VGM.jpg.jpeg" class="w-[540px] h-100 lg:block hidden" alt="">
+      <div class="contents grid grid-cols-1 mx-0 lg:mx-18 w-[1000px] h-100 text-[20px] lg:text-[16px] ">
 
   <p class="leading-relaxed font-regular text-[#333]">We are the University of Liverpool. Located at the heart of a thrilling world city, we are a dynamic institution of academic excellence and innovation, making a positive impact across the United Kingdom and the wider world.</p> <br>
     <p class=" leading-relaxed font-regular text-[#333]">
@@ -117,17 +213,19 @@
       Since 1881, we've been at the forefront of world-class research and education, known for our cutting-edge facilities and relentless pursuit of excellence and achievement. Find out how you can be part of our vibrant community and explore the work we’re doing with our famous home city.
     </p><br>
     <br>
-    <div class="flex space-x-4">
+    <div class="lg:flex lg:space-x-4 grid grid-cols-1 gap-4">
 
-      <div class="div p-[12px] border-gray-900 content-center text-center h-17 border-1 w-[calc(40%-30px)]">
+      <div class="div p-[12px] border-gray-900 content-center text-center h-17 border-1 w-full lg:w-[calc(40%-30px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Learn about us</span>
         
       </div>
-      <div class="div p-[12px] border-gray-900 content-center text-center h-17 border-1 min-w-[calc(23%-30px)]">
+      <div class="div p-[12px] border-gray-900 content-center text-center h-17 border-1 w-full lg:min-w-[calc(23%-30px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Liverpool: Our city, our inspiration</span>
         
       </div>
     </div>
+      <img src="./src/assets/www.liverpool.ac.uk-1756368635407/contact-us-VGM.jpg.jpeg" class="w-full scale-x-[1.07] mt-10 h-80 lg:hidden block" alt="">
+
     
   </div>
 </div>
@@ -136,74 +234,75 @@
 
 <!-- Offer management -->
 
-  <section class="w-[98%] mx-auto">
+  <section class="w-[98%] mx-auto lg:mt-0 mt-[546px]">
 
-    <div class="bg-[#EF426F] flex items-center p-[32px] h-40 space-x-12">
-      <img class="invert w-30" src="./src/assets/www.liverpool.ac.uk-1756368635407/57e603cf-450b-41b1-a2c6-dabda9a80d35.svg" alt="">
-      <span class="ml-9 font-bold w-[700px] text-[#fff] text-3xl">Manage your offer</span>
-      <div class="middle text-[#fff] font-regular text-2xl leading-tight">
+    <div class="bg-[#EF426F] lg:flex grid grid-cols-1 items-center p-[32px] lg:h-40 h-[800] space-x-12">
+      <img class="invert lg:w-30 w-40 lg:mx-0 mx-auto" src="./src/assets/www.liverpool.ac.uk-1756368635407/57e603cf-450b-41b1-a2c6-dabda9a80d35.svg" alt="">
+      <span class="ml-9 font-bold w-[700px] lg:scale-x-0 scale-x-[1.08] text-[#fff] text-3xl">Manage your offer</span>
+      <div class="middle lg:text-left text-center text-[#fff] font-regular text-[24px] lg:ml-0 ml-2 lg:text-2xl leading-tight">
         Find out how to confirm your place to study at Liverpool and make changes to your offer.
       </div>
       
-      <div class="div px-[22px] pt-3 bg-[#202A58] text-[#fff] text-center content-center h-30 min-w-[calc(22%-32px)]">
-        <span class="hover:underline hover:decoration-3 font-bold text-[20px]">Manage your offer now</span>
+      <div class="div px-[22px] lg:pt-3 pt-1 lg:mt-0 mt-2 bg-[#202A58] text-[#fff] text-center content-center lg:h-30 h-20 min-w-[calc(22%-32px)]">
+        <span class="hover:underline hover:decoration-3 font-bold text-[20px] lg:text-[20px]">Manage your offer now</span>
         
       </div>
     </div>
   </section>
 
-
-<!-- Study with us -->
-
-<section class="mt-[30px]">
-
-  <div class="w-full bg-[#fff] p-[32px]">
-    <div class="discover flex justify-between">
+  
+  <!-- Study with us -->
+  
+  <section class="lg:mt-[30px] mt-0">
+    
+    <div class="w-full bg-[#fff] lg:p-[32px] px-1">
+      <div class="discover lg:flex grid grid-cols-1 justify-between">
+      <img src="./src/assets/www.liverpool.ac.uk-1756368635407/56d76c76-017b-4326-80f1-d44d33204dee.webp" class="w-[400px] h-100 block lg:hidden" alt="">
       
-      <div class="contents grid grid-cols-1 pt-15 px-20 bg-[#202A58] h-100">
+      <div class="contents grid grid-cols-1 lg:pt-15 pt-2 lg:px-20 px-4 bg-[#202A58] lg:h-100 h-190">
         <h1 class="text-3xl font-bold text-[#fff]">Study with us</h1><br>
 
-  <p class="text-[15px] leading-relaxed font-regular text-[#ffff]">Discover endless possibilities. We offer a range of courses with support and expertise to help you succeed in your future career. Find your perfect course, explore our subject areas or discover everything you need to know about studying with us.</p><br>
+  <p class="lg:text-[15px] text-[18px] leading-relaxed font-regular text-[#ffff]">Discover endless possibilities. We offer a range of courses with support and expertise to help you succeed in your future career. Find your perfect course, explore our subject areas or discover everything you need to know about studying with us.</p><br>
     <br>
-    <div class="grid grid-cols-3 space-x-12 space-y-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 space-x-12 space-y-6">
 
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 min-w-[calc(12%-32px)] max-w-[calc(100%-20px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 lg:min-w-[calc(12%-32px)] w-full lg:max-w-[calc(100%-20px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Undergraduate</span>
         
       </div>
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 min-w-[calc(12%-20px)] max-w-[calc(65%-20px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 lg:min-w-[calc(12%-20px)] w-full lg:max-w-[calc(65%-20px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Master's</span>
         
       </div>
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 w-[calc(100%-20px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 w-full lg:w-[calc(100%-20px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Postgraduate Research</span>
         
       </div>
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 min-w-[calc(400px-20px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 w-full lg:min-w-[calc(400px-20px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Continuing Professional Development</span>
 
       </div>
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 ml-[200px] min-w-[calc(100%-20px)] max-w-[calc(100%-32px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 ml-0 mb-3 lg:mb-0 lg:ml-[200px] lg:min-w-[calc(100%-20px)] w-full lg:max-w-[calc(100%-32px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">International Students</span>
 
       </div>
     </div>
   </div>
-  <img src="./src/assets/www.liverpool.ac.uk-1756368635407/56d76c76-017b-4326-80f1-d44d33204dee.webp" class="w-[400px] h-100" alt="">
+  <img src="./src/assets/www.liverpool.ac.uk-1756368635407/56d76c76-017b-4326-80f1-d44d33204dee.webp" class="w-[400px] h-100 hidden lg:block" alt="">
 </div>
 <br>
 </section>
 
 <!-- Visit us on an Open Day -->
-<section class="mt-[30px]  w-[98%] mx-auto">
-    <div class="bg-[#EF426F] flex items-center p-[32px] space-x-12 h-50">
-      <img class="invert w-40" src="./src/assets/www.liverpool.ac.uk-1756368635407/28120c84-0d5c-4497-93ca-5f8547632abc.svg" alt="">
-      <span class="ml-9 font-bold w-[800px] text-[#fff] text-2xl">Visit us on an Open Day</span>
-      <div class="middle text-[#fff] font-regular text-2xl leading-tight">
+<section class="lg:mt-[30px] mt-0  w-[98%] mx-auto">
+    <div class="bg-[#EF426F] grid grid-cols-1 lg:flex items-center lg:p-[32px] p-0 space-x-12 h-140 lg:h-50">
+      <img class="invert w-40 lg:mx-0 mx-auto" src="./src/assets/www.liverpool.ac.uk-1756368635407/28120c84-0d5c-4497-93ca-5f8547632abc.svg" alt="">
+      <span class="lg:ml-9 ml-8 font-bold w-[800px] text-[#fff] text-[27px] lg:scale-x-0 scale-x-[1.04] lg:text-2xl">Visit us on an Open Day</span>
+      <div class="middle text-[#fff] font-regular lg:text-2xl text-[22px] lg:p-0 p-4 lg:w-auto w-full lg:text-left text-center leading-tight">
         Explore our campus and learn more about what it's like to live and study at Liverpool with our Open Days.
       </div>
       
-      <div class="div px-[32px]  bg-[#202A58] text-[#fff] content-center text-center h-14 min-w-[calc(22%-23px)]">
+      <div class="div px-[32px]  bg-[#202A58] text-[#fff] content-center text-center h-14 w-[96%] mx-auto lg:mx-0 lg:min-w-[calc(22%-23px)]">
         <span class="hover:underline hover:decoration-3 font-bold text-[18px]">Book an Open Day</span>
         
       </div>
@@ -211,50 +310,50 @@
 </section>
 <!-- Our rankings and reputation -->
 
-<section class="bg-white py-12 px-6 md:px-[12px]">
-  <h1 class="text-2xl font-bold text-gray-900 mb-8">Our rankings and reputation</h1>
-  <div class="grid md:grid-cols-2 gap-10 p-[72px] items-center">
+<section class="bg-white py-12 px-4 lg:px-6 md:px-[12px]">
+  <h1 class="lg:text-2xl text-4xl font-bold text-gray-900 mb-8">Our rankings and reputation</h1>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:p-[72px] p-6 items-center">
     
     <!-- Left side: World Top 150 -->
-    <div class="flex flex-col md:flex-row w-[600px] space-x-12 items-center md:items-start gap-6">
-      <img src="./src/assets/www.liverpool.ac.uk-1756368635407/42f2603b-b74a-409d-846b-4e0092a14b8a.png" alt="QS World Ranking 2026" class="w-40 md:w-48">
-      <div>
-        <h2 class="text-xl text-gray-900 md:text-2xl font-bold mb-2">World Top 150</h2>
-        <p class="text-gray-700 text-1xl w-70">
+    <div class="lg:flex grid grid-cols-1 flex-col md:flex-row w-full lg:w-[600px] space-x-12 items-center md:items-start gap-6">
+      <img src="./src/assets/www.liverpool.ac.uk-1756368635407/42f2603b-b74a-409d-846b-4e0092a14b8a.png" alt="QS World Ranking 2026" class="lg:w-40 w-60 lg:mx-0 mx-auto md:w-48">
+      <div class="lg:mx-0 mx-4">
+        <h2 class="lg:text-xl text-2xl text-gray-900 md:text-2xl font-bold mb-2">World Top 150</h2>
+        <p class="text-gray-700 lg:text-1xl text-[22px] lg:w-70 w-[300px]">
           QS World University Rankings 2026 places us in the Top 150 global universities. We've moved up to 147th in the world, climbing 43 places in the last 3 years and up from 165th in the 2025 rankings.
         </p>
       </div>
     </div>
 
     <!-- Right side: Other rankings -->
-    <div class="flex flex-col gap-6 w-[800px] space-x-[100px]">
+    <div class="lg:flex flex-col gap-6 lg:w-[800px] w-full space-x-[100px]">
       <!-- TEF Gold -->
-      <div class="flex items-center gap-9">
-        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/b4f6ddad-2695-4561-8e75-2f4cefc082ea.png" alt="" class="w-20">
-        <p class="text-gray-700 text-[19px] w-120">
+      <div class="lg:flex grid grid-cols-1  items-center gap-9 lg:mt-0 mt-3">
+        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/b4f6ddad-2695-4561-8e75-2f4cefc082ea.png" alt="" class="lg:w-20 w-60 lg:mx-0 mx-auto">
+        <p class="text-gray-700 lg:text-[19px] text-[22px] lg:w-120 w-67">
           Our teaching is rated <span class="font-semibold">Gold</span>, the highest level, by the Teaching Excellence Framework.
         </p>
       </div>
 
       <!-- 19th overall -->
-      <div class="flex items-center gap-9">
-        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/0c6d354e-ddd3-49ce-99cb-e268642b0212.jpeg" alt="" class="w-20">
-         <p class="text-gray-700 text-[19px] w-120">
+      <div class="lg:flex grid grid-cols-1  items-center gap-9 lg:mt-0 mt-3">
+        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/0c6d354e-ddd3-49ce-99cb-e268642b0212.jpeg" alt="" class="lg:w-20 w-60 lg:mx-0 mx-auto">
+         <p class="text-gray-700 lg:text-[19px] text-[22px] lg:w-120 w-67">
           We're ranked <span class="font-semibold">19th</span> overall in the United Kingdom in the Complete University Guide's UK League Table.
         </p>
       </div>
 
       <!-- Top 160 THE -->
-      <div class="flex items-center gap-9">
-        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/d9e1135d-7d07-428e-a7f1-6bf0c6297baf.png" alt="" class="w-20">
-         <p class="text-gray-700 text-[19px] w-120">
+      <div class="lg:flex grid grid-cols-1  items-center gap-9 lg:mt-0 mt-3">
+        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/d9e1135d-7d07-428e-a7f1-6bf0c6297baf.png" alt="" class="lg:w-20 w-60 lg:mx-0 mx-auto">
+         <p class="text-gray-700 lg:text-[19px] text-[22px] lg:w-120 w-67">
           We're ranked in the top <span class="font-semibold">160</span> universities globally in the Times Higher Education World University rankings.
         </p>
       </div>
     </div>
 <br>
   </div>
-        <div class="div p-[12px] w-[400px] border-gray-900 content-center text-center h-14 border-1 min-w-[calc(23%-32px)]">
+        <div class="div p-[12px] lg:w-[400px] w-[90%] border-gray-900 content-center text-center h-14 border-1 min-w-[calc(23%-32px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Explore our rankings and reputation</span>
         
       </div>
@@ -265,25 +364,26 @@
 
 
 <section class="mt-[30px]">
-
+  
   <div class="w-full bg-[#fff] p-[32px]">
+    <img src="./src/assets/www.liverpool.ac.uk-1756368635407/India,campus,header(1).jpg.jpeg" class="w-[400px] h-60 lg:hidden block" alt="">
     <div class="discover flex justify-between">
       
-      <div class="contents grid grid-cols-1 pt-15 px-20 bg-[#202A58]  h-100">
-        <h1 class="text-2xl font-bold text-[#fff]">Discover Liverpool in India</h1><br>
+      <div class="contents grid grid-cols-1 lg:pt-15 pt-5 lg:px-20 px-4 bg-[#202A58]  lg:h-100 h-120">
+        <h1 class="lg:text-2xl text-[18px] font-bold text-[#fff]">Discover Liverpool in India</h1><br>
 
   <p class="text-[18px] leading-relaxed font-regular text-[#ffff]">Introducing our new campus in the city of Bengaluru, the centre of high-tech industry in India. Find out more about our new campus, which will strengthen existing partnerships, build new connections and bring our world-class teaching and research to India.</p><br>
     <br>
     <div class="grid grid-cols-3 space-x-12 space-y-6">
 
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-15 border-1 min-w-[calc(12%-22px)] max-w-[calc(100%-32px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-15 border-1 lg:min-w-[calc(12%-22px)] w-[240px] lg:mx-0 mx-auto lg:max-w-[calc(100%-32px)]">
         <span class="hover:underline hover:decoration-3 text-1xl">Find out more</span>
         
       </div><br><br>
       
     </div>
   </div>
-  <img src="./src/assets/www.liverpool.ac.uk-1756368635407/India,campus,header(1).jpg.jpeg" class="w-[400px] h-100" alt="">
+  <img src="./src/assets/www.liverpool.ac.uk-1756368635407/India,campus,header(1).jpg.jpeg" class="w-[400px] h-100 lg:block hidden" alt="">
 </div>
 <br><br>
 </section>
@@ -292,25 +392,26 @@
 
 <section class="py-16 bg-white">
   <!-- Heading -->
-  <div class=" px-[32px] mx-auto">
+  <div class=" lg:px-[32px] px-4 mx-auto">
     <h2 class="text-4xl font-bold text-gray-800 mb-4">
       Our research: Transforming lives, changing the world
     </h2><br>
     <p class="text-gray-600 mb-12 text-[20px]">
       Discover how our research is making a difference all over the world. As a founding member of the Russell Group, research is the driving force behind our success, tackling real-world challenges to have a positive impact on society and the world around us.
     </p>
-    <div class="hrs flex justify-between">
+    <div class="hrs lg:flex hidden justify-between">
       <hr class="h-1 bg-gray-100 w-[32%]">
       <hr class="h-1 bg-gray-100 w-[32%]">
       <hr class="h-1 bg-gray-100 w-[32%]">
 
     </div>
+    <hr class="hrs w-full lg:hidden block justify-between">
   </div><br>
 
   <!-- 3 Column Cards -->
-  <div class="px-[62px] mx-auto grid md:grid-cols-3 gap-8 text-left mb-12">
+  <div class="lg:px-[62px] px-[2px] mx-auto grid md:grid-cols-3 gap-8 text-left mb-12">
     <!-- Card 1 -->
-    <div>
+    <div class="lg:mx-0 mx-4">
       <a href="#" class="text-gray-700 hover:decoration-2 text-2xl font-bold underline inline-flex items-center gap-1">
         Research frontiers
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -321,9 +422,9 @@
         Learn more about our research frontiers and how we're driving innovation in materials discovery, particle physics and therapeutics innovation to build a better future.
       </p>
     </div>
-
+  <hr class="hrs w-full lg:hidden block justify-between">
     <!-- Card 2 -->
-    <div>
+    <div class="lg:mx-0 mx-4">
       <a href="#" class="text-gray-700 hover:decoration-2 text-2xl font-bold underline inline-flex items-center gap-1">
         Interdisciplinary Centre for Sustainability Research
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -334,9 +435,9 @@
         Explore our new Interdisciplinary Centre for Sustainability Research and find out how we're utilising a variety of skills and knowledge to find new developments in sustainability research.
       </p>
     </div>
-
+  <hr class="hrs w-full lg:hidden block justify-between">
     <!-- Card 3 -->
-    <div>
+    <div class="lg:mx-0 mx-4">
       <a href="#" class="text-gray-700 hover:decoration-2 text-2xl font-bold underline inline-flex items-center gap-1">
         Our impact
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -348,7 +449,6 @@
       </p>
     </div>
   </div>
-
   <!-- Button -->
         <div class="div p-[12px] w-[230px] h-14 mx-10 border-gray-900 content-center text-center border-1">
         <span class="hover:underline hover:decoration-3 text-[18px]">Explore our research</span>
@@ -362,14 +462,14 @@
 
 <section class="mt-[30px]">
 
-  <div class="w-full bg-[#fff] p-[32px]">
-    <div class="discover flex justify-between">
-        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/student-life,(3),(1).jpg.jpeg" class="w-[400px] h-100" alt="">
-      <div class="contents grid grid-cols-1 pt-15 px-20 h-[400px]">
+  <div class="w-full bg-[#fff] lg:p-[32px] p-0">
+    <div class="discover lg:flex grid grid-cols-1 justify-between">
+        <img src="./src/assets/www.liverpool.ac.uk-1756368635407/student-life,(3),(1).jpg.jpeg" class="lg:w-[400px] w-full lg:h-100 h-60" alt="">
+      <div class="contents grid grid-cols-1 pt-15 lg:px-20 px-4 h-[400px]">
         <h1 class="text-2xl font-bold text-gray-900">Discover a vibrant student life in Liverpool</h1>
   <p class="text-[18px] leading-relaxed font-regular text-gray-900">Enjoy a fantastic student experience when you study with us. Explore the Guild of Students, learn more about what’s happening in our amazing home city and discover your accommodation options.</p><br>
     <br>
-    <div class="grid grid-cols-2 space-x-7 space-y-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 space-x-7 space-y-6">
 
       <div class="div p-[12px] border-gray-900 text-gray-900 content-center text-center h-14 border-1 min-w-[calc(12%-32px)] max-w-[calc(100%-32px)]">
         <span class="hover:underline hover:decoration-3 text-[18px]">Student life at Liverpool</span>
@@ -380,7 +480,7 @@
         <span class="hover:underline hover:decoration-3 text-[18px]">Why choose Liverpool?</span>
         
       </div>
-      <div class="div p-[12px] border-gray-900 text-gray-900 content-center text-center h-14 border-1 min-w-[calc(300px-32px)]">
+      <div class="div p-[12px] border-gray-900 text-gray-900 content-center text-center h-14 border-1 w-[90%] lg:min-w-[calc(300px-32px)]">
         <span class="hover:underline hover:decoration-3 text-[18px]">Find your accommodation</span>
 
       </div>
@@ -395,23 +495,24 @@
 <!-- We're making an impact across the globe -->
 
 
-<section class="mt-[30px]">
-
-  <div class="w-full bg-[#fff] p-[32px]">
-    <div class="discover flex justify-between">
+<section class="lg:mt-[30px] mt-30">
+  
+  <div class="w-full bg-[#fff] lg:p-[32px] p-0">
+    <img src="./src/assets/www.liverpool.ac.uk-1756368635407/global-cropped,(1).jpg.jpeg" class="lg:w-[400px] w-full h-100 block lg:hidden" alt="">
+    <div class="discover grid grid-cols-1 lg:flex justify-between">
       
-      <div class="contents grid grid-cols-1 pt-15 px-20 bg-[#202A58]  h-100">
+      <div class="contents grid grid-cols-1 lg:pt-15 pt-4 lg:px-20 px-4 bg-[#202A58]  lg:h-100 h-130">
         <h1 class="text-2xl font-bold text-[#fff]">We're making an impact across the globe</h1><br>
 
   <p class="text-[18px] leading-relaxed font-regular text-[#ffff]">We’re proud to be part of a global community, where collaboration drives our success and impact across the world. Find out more about our commitment to global engagement and how we’re making a difference to the world.</p><br>
     <br>
-    <div class="grid grid-cols-2 space-x-12 space-y-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 space-x-12 space-y-6">
 
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 w-[calc(100%-32px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 w-full lg:w-[calc(100%-32px)]">
         <span class="hover:underline hover:decoration-3 text-[18px]">Explore our global partnerships</span>
         
       </div>
-      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 min-w-[calc(12%-32px)] max-w-[calc(60%-32px)]">
+      <div class="div p-[12px] border-[#fff] text-[#fff] content-center text-center h-14 border-1 lg:min-w-[calc(12%-32px)] w-full lg:max-w-[calc(60%-32px)]">
         <span class="hover:underline hover:decoration-3 text-[18px]">Work with us</span>
         
       </div>
@@ -419,7 +520,7 @@
       
     </div>
   </div>
-  <img src="./src/assets/www.liverpool.ac.uk-1756368635407/global-cropped,(1).jpg.jpeg" class="w-[400px] h-100" alt="">
+  <img src="./src/assets/www.liverpool.ac.uk-1756368635407/global-cropped,(1).jpg.jpeg" class="w-[400px] h-100 hidden lg:block" alt="">
 </div>
 <br><br>
 </section>
@@ -428,8 +529,8 @@
 
 <section class="p-[18px] bg-gray-100">
   <h1 class="text-3xl font-bold text-gray-900">Latest news</h1><br><br>
-  <div class="flex space-x-3 ">
-    <div class="flex space-x-12 h-104 bg-[#fff] p-[32px]">
+  <div class="lg:flex grid grid-cols-1 space-x-3 ">
+    <div class="lg:flex grid grid-cols-1 space-x-12 lg:h-104 h-180 bg-[#fff] p-[32px]">
       <img class="w-[270px] h-[272px]" src="./src/assets/www.liverpool.ac.uk-1756368635407/457aaf66-9389-4cf7-96da-0a19daaedb8f.webp" alt="">
       <div class="right-of w-[300px]">
         <h1 class="text-xl font-semibold text-gray-900">27 AUGUST 2025</h1><br>
@@ -442,19 +543,19 @@
       </div>
     </div>
     <div class="grid grid-cols-1 gap-4"> 
-      <div class="h-32 w-[530px] bg-[#fff] px-7 pt-3">
+      <div class="h-32 lg:w-[530px] w-full bg-[#fff] px-7 pt-3">
 
         <h1 class="text-xl font-semibold text-gray-900">26 AUGUST 2025</h1><br>
         <h1 class="text-xl font-bold text-gray-700 underline hover:decoration-3">University’s Beatles MA returns in distance-learning format</h1><br><br>
       </div>
       
-      <div class="h-32 w-[530px] bg-[#fff] px-7 pt-3">
+      <div class="h-32 lg:w-[530px] w-full bg-[#fff] px-7 pt-3">
 
         <h1 class="text-xl font-semibold text-gray-900">18 AUGUST 2025</h1><br>
         <h1 class="text-xl font-bold text-gray-700 underline hover:decoration-3">Liverpool Literary Festival is back for its 10th year</h1><br><br>
       </div>
             
-      <div class="h-32 w-[530px] bg-[#fff] px-7 pt-3">
+      <div class="h-32 lg:w-[530px] w-full bg-[#fff] px-7 pt-3">
 
         <h1 class="text-xl font-semibold text-gray-900">15 AUGUST 2025</h1><br>
         <h1 class="text-xl font-bold text-gray-700 underline hover:decoration-3">Spotlight on Workshops at BSF 2025</h1><br><br>
@@ -477,8 +578,8 @@
 
 <section class="p-[18px] bg-[#DBDBD3]">
   <h1 class="text-3xl font-bold text-gray-900">Latest news</h1><br><br>
-  <div class="flex space-x-3 ">
-    <div class="flex space-x-12 h-100 bg-[#fff] p-[32px]">
+  <div class="lg:flex grid grid-cols-1 space-x-3 ">
+    <div class="lg:flex grid grid-cols-1 space-x-12 lg:h-100 h-150 bg-[#fff] p-[32px]">
       <img class="w-[270px] h-[272px]" src="./src/assets/www.liverpool.ac.uk-1756368635407/c4b6a999-580a-4282-96fa-ffa5a9c2ee20.webp" alt="">
       <div class="right-of w-[300px]">
         <h1 class="text-[18px] text-gray-900">LECTURE</h1><br>
@@ -488,14 +589,14 @@
       </div>
     </div>
         <div class="grid grid-cols-1 gap-4"> 
-      <div class="h-48 pt-4 w-[530px] bg-[#fff] px-15">
+      <div class="lg:h-48 h-60 pt-4 lg:w-[530px] w-[96%] bg-[#fff] px-15">
 
         <h1 class="text-[18px] text-gray-900 px-3">OTHER</h1><br>
         <h1 class="text-[18px] text-gray-900">10 SEPTEMBER 2025</h1><br>
         <h1 class="text-[18px] font-bold text-gray-700 underline hover:decoration-3">British Science Festival 2025</h1><br><br>
       </div>
       
-      <div class="h-48 pt-4 w-[530px] bg-[#fff] px-15">
+      <div class="lg:h-48 h-60 pt-4 lg:w-[530px] w-[96%] bg-[#fff] px-15">
 
         <h1 class="text-[18px] text-gray-900 px-3">MUSIC</h1><br>
         <h1 class="text-[18px] text-gray-900">06 SEPTEMBER 2025</h1><br>
@@ -505,7 +606,7 @@
     </div>
   </div>
     
-        <div class="div mt-9 p-[12px] mb-9 w-[200px] border-gray-900 content-center text-center h-14 border-1">
+        <div class="div mt-9 p-[12px] mb-9 lg:w-[200px] w-full border-gray-900 content-center text-center h-14 border-1">
         <span class="hover:underline hover:decoration-3 text-[18px]">Read more news</span>
         
       </div>
@@ -523,7 +624,7 @@
         <img class="w-[300px] top-[-12px] invert" src="./src/assets/www.liverpool.ac.uk-1756368635407/3086e686-fd75-4e3f-b52e-44b05c22a715.svg" alt="">
       </div>
       <div class="flex flex-col md:flex-row ml-10 space-y-4 md:space-y-0 md:space-x-8">
-        <div class="text-xl">
+        <div class="text-xl lg:mt-0 mt-5">
           <h4 class="font-bold">Information for</h4>
           <ul class="mt-2 space-y-3">
             <li class="underline hover:decoration-3">Current students</li>
@@ -534,7 +635,7 @@
             <li class="underline hover:decoration-3">Media</li>
           </ul>
         </div>
-        <div class="text-xl">
+        <div class="text-xl lg:mt-0 mt-5">
           <h4 class="font-bold">Study at Liverpool</h4>
           <ul class="mt-2 space-y-3">
             <li class="underline hover:decoration-3">Undergraduate</li>
@@ -546,7 +647,7 @@
             <li class="underline hover:decoration-3">International students</li>
           </ul>
         </div>
-        <div class="text-xl">
+        <div class="text-xl lg:mt-0 mt-5">
           <h4 class="font-bold">Quick links</h4>
           <ul class="mt-2 space-y-3">
             <li class="underline hover:decoration-3">Jobs at Liverpool</li>
@@ -558,7 +659,7 @@
             <li class="underline hover:decoration-3">All subjects</li>
           </ul>
         </div>
-        <div class="text-xl">
+        <div class="text-xl lg:mt-0 mt-5">
           <h4 class="font-bold">Contact us</h4>
           <ul class="mt-2 space-y-3">
             <li class="underline hover:decoration-3">University of Liverpool</li>
@@ -593,7 +694,7 @@
     </div>
     <div class="mt-4 px-6 text-[17px]">
 
-      <div class="space-x-4">
+      <div class="space-x-4 lg:flex grid grid-cols-1">
         <a href="#" class="hover:decoration-3 underline">Accessibility</a>
         <a href="#" class="hover:decoration-3 underline">Freedom of information</a>
         <a href="#" class="hover:decoration-3 underline">Cookie information</a>
@@ -607,4 +708,17 @@
   </footer>
   <!-- <img src="./src/assets/www.liverpool.ac.uk-1756368635407/welcome-homepage-new.jpg.jpeg" alt=""> -->
 </body>
+
+<script>
+  const closer = document.getElementById('closer');
+  const search = document.getElementById('menus');
+  const opener = document.getElementById('opener');
+
+  closer.addEventListener('click', () => {
+    search.classList.add('hidden');
+  });
+  opener.addEventListener('click', () => {
+    search.classList.remove('hidden');
+  });
+</script>
 </html>
