@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./src/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body class="bg-[#fff] w-screen lg:overflow-x-hidden overflow-x-hidden">
+<body class="bg-[#fff] overflow-x-hidden">
 <div class="lg:w-full hidden lg:block  lg:bg-center bg-[80%] bg-cover bg-no-repeat bg-zoom-2 h-[100svh] min-h-[fit-content] mx-auto bg-[url(/src/assets/www.liverpool.ac.uk-1756368635407/welcome-homepage-new.jpg.jpeg)]">
   <div class="p-[32px]">
   <div class="first-header flex flex-grow justify-between">
@@ -57,7 +57,7 @@
   <br>
   <div class="info p-[32px] relative">
 
-    <div class="div text-[52px] p-[12px] border-[#fff] border-4 h-50 w-[calc(70%-32px)]">
+    <div class="div text-[52px] p-[12px] border-[#fff] border-4 h-50 max-w-[70%]">
       <h1 class=" font-bold text-[#fff] uppercase font-[ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji]">Your next chapter starts now</h1>
       
     </div>
@@ -168,7 +168,7 @@
 <div class="find-course bg-[#202A58] grid grid-rows-2 lg:block p-4 lg:p-[49px] text-[#fff] content-center w-full lg:w-full h-[380px]">
  <div class="search text-1xl grid grid-cols-1 lg:flex items-center space-x-7 leading-relaxed flex-grow space-x-2">
   <label for="search" class="font-bold">Find your Course</label>
-  <div class="flex w-[352px] lg:w-[60%] bg-red-900">
+  <div class="flex w-[332px] lg:w-[60%] bg-red-900">
 
     <input type="text" id="search" class="border-2 font-regular border-blue-900 h-[69px] w-full lg:w-[80%] text-2xl bg-[#fff] outline-none px-9 text-gray-900 ">
     <button type="submit" id="search" class="border-2 font-regular border-[#fff] text-2xl h-[67px] w-[20%] bg-[#202A58] outline-none px-3 text-[#fff] ">
@@ -182,7 +182,7 @@
   </div>
 </div>
 <br>
-<div class="radios w-[60rem] content-center  justify-between lg:mt-0 mt-[-50px] grid grid-cols-1 gap-4 lg:flex mx-auto">
+<div class="radios lg:w-[60rem] w-full content-center  justify-between lg:mt-0 mt-[-50px] grid grid-cols-1 gap-4 lg:flex mx-auto">
   <div class="flex items-center space-x-4">
     <input type="radio" id="undergraduate" name="course" value="undergraduate" class="w-5 h-5 accent-[#202A58]">
     <label for="undergraduate" class="lg:text-[20px] text-[23px] font-regular">Undergraduate</label>
